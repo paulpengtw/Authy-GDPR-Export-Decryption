@@ -64,12 +64,20 @@ Google,bHQ8XreBj1u9zj...,Po2dZyQXcBdX...,12af7fdbc59d..."
     ```bash
     pip install cryptography
     ```
+    Or, with [uv](https://docs.astral.sh/uv/):
+    ```bash
+    uv sync
+    ```
 
 ### Running the Decryptor
 
 1.  Run the script:
     ```bash
     python authy-export-decryptor.py
+    ```
+    Or, with uv:
+    ```bash
+    uv run authy-export-decryptor.py
     ```
 2.  **Enter your Backup Password:**
     * ⚠️ **Important:** This is **NOT** your Twilio login password. It is the specific password you set inside the Authy App settings (under Accounts -> Backups) to encrypt your cloud tokens.

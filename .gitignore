@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.env
+
+# Decrypted output contains plaintext TOTP secrets
+decrypted_tokens.txt
